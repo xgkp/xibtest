@@ -11,8 +11,7 @@
 @interface NewXibTestView : UIView
 
 @property (nonatomic,strong) NSString * timerString;
-@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
-
+@property (nonatomic,strong) UILabel * timeLabel;
 
 
 @end
